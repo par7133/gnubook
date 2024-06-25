@@ -202,8 +202,25 @@ function showEncodedPassword() {
   alert(msg + "\n\n" + passw);	
 }
 
+//function changeLang(tthis) {
+//  window.open("/<?PHP echo($AVATAR_NAME);?>?hl="+$(tthis).val(),"_self");
+//}
+
 function changeLang(tthis) {
-  window.open("/<?PHP echo($AVATAR_NAME);?>?hl="+$(tthis).val(),"_self");
+  lang = $(tthis ).val();
+  switch (lang) {
+    case "en-US":
+       window.open("/<?PHP echo($AVATAR_NAME);?>?hl=en-US","_self");
+       break;
+    case "it-IT":
+       window.open("https://gnubook-org.translate.goog/<?PHP echo($AVATAR_NAME);?>?_x_tr_sl=auto&_x_tr_tl=it&_x_tr_hl=en&_x_tr_pto=wapp","_self");
+       break;
+    case "zh-CN":
+       //window.open("https://gnubook-org.translate.goog/433?_x_tr_sl=auto&_x_tr_tl=zh&_x_tr_hl=en&_x_tr_pto=wapp","_self");
+       window.open("http://webtrans.yodao.com/webTransPc/index.html?from=en&to=zh-CHS&type=1&url=https%3A%2F%2Fgnubook.org%2F<?PHP echo($AVATAR_NAME);?>", "_self");
+       break;
+   }    
+   //window.open("/<?PHP echo($AVATAR_NAME);?>?hl="+$(tthis).val(),"_self");
 }
 
 function reload() {

@@ -1,0 +1,94 @@
+<?PHP
+if (filter_input(INPUT_GET, "blogSP")===null) {
+?>
+
+<style>
+.bbb {
+  color: #7bca2e;
+  text-decoration: underline;
+}
+#originsDisplay {
+  float:left;
+  position:fixed;
+  top:680px;
+  left:50px;
+  width:275px;
+  height:120px;
+  font-family: Monospace, Verdana, Serif;
+  font-size: 14px;
+  background-color: #020401;
+  border: 3px solid lightgray;
+  text-align:left;
+  color: #FFFFFF;
+  white-space:nowrap; 
+  font-weight:900;
+  padding:10px;
+  padding-top:4px;
+  z-index:99999;
+  display:none;
+}
+.originLabel {
+  color: #7bca2e;
+  font-weight:900;
+}
+</style>
+
+<div id="originsDisplay">
+      <br>
+       &nbsp;<span class="originLabel">Coding:</span>&nbsp;Italy&nbsp;<br>         
+       &nbsp;<span class="originLabel">Server:</span>&nbsp;Finland&nbsp;<br>
+       &nbsp;<span class="originLabel"><a href="http://metrica.yandex.com" class="bbb">Metrics</a>:</span>&nbsp;Russia&nbsp;<br>
+      <br>
+</div>   
+
+<script>
+function setOriginsPos() {
+  h=parseInt(window.innerHeight);
+  w=parseInt(window.innerWidth);
+  mytop = parseInt(window.innerHeight - ($("#originsDisplay").height()*3 + 60));
+  $("#originsDisplay").css("top", mytop+"px");
+  setTimeout("hideOrigins()",10000);
+}
+
+function hideOrigins() {
+  $("#originsDisplay").css("visibility","hidden");
+}  
+function showOrigins() {
+  $("#originsDisplay").show();
+}
+window.addEventListener("load", function(){
+
+  // title
+  document.title = "gnubook: the opensource social";
+     
+  setTimeout("setOriginsPos()", 500);
+  setTimeout("showOrigins()", 500);
+});
+</script>
+
+<?PHP
+}
+?>
+
+<script>
+function setContentPos3() {
+  $("body").css("background","url('/res/bg2b.jpg') fixed");
+  $("body").css("background-size","cover");
+  //$("body").css("background-position","center");
+  $("body").css("background-repeat","no-repeat");
+  //$("#header").css("max-width","440px");
+  //$("#header").css("background-color","#FFFFFF");
+  //$("#header").css("opacity","0.6");
+  //$("#header").css("margin-top","0px");
+  //$("#header").css("margin-bottom","0px");
+  $("#blog").css("background-image","");
+  $("#blog").css("background-repeat","");
+}
+window.addEventListener("load", function(){
+  setTimeout("setContentPos3()", 200);
+});
+window.addEventListener("resize", function(){
+  setTimeout("setContentPos3()", 200);
+});
+
+</script>

@@ -15,10 +15,10 @@ Same about customizing your blog skinner (skinner.html), write down your code an
 
 ### Public view:
 
-![gnubook in action #1](/Public/res/screenshot1.png)<br>
+![gnubook in action #1](/Public/static/res/screenshot1.png)<br>
 
 ### Admin view:
 
-![gnubook in action #2](/Public/res/screenshot2.png)<br>
+![gnubook in action #2](/Public/static/res/screenshot2.png)<br>
 
 Feedback: posta@elettronica.lol

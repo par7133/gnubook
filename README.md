@@ -9,6 +9,8 @@ You can access your blog by http://gnubook.org/<your_avatar>. Login with the pas
 
 First step, use the password box and salt fields to create the hash to insert in the config file of gnubook. Remember to deliver the hash to us, at info@gnubook.org specifying your blog name.<br>
 
+SALT = "marti2019" (we reserve the right to change it and to publish it here again)
+
 Same about customizing your blog skinner (skinner.html), write down your code and deliver to us to the same coordinates.
     
 [ this file is a work-in-progress.. ]

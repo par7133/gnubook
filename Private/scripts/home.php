@@ -507,7 +507,7 @@
    </div> 
    <div id="headerMob" class="header" style="margin-top:1px;margin-bottom:1px;display:none;">
         <div style="float:left">
-             <a href="http://faceborg.5mode-foss.eu" target="_self" style="color:#000000; text-decoration: none;">&nbsp;<img src="/res/AFlogo.png" align="middle" style="position:relative;top:-5px;width:22px;">&nbsp;Faceborg</a><br>
+             <a href="http://gnubook.org" target="_self" style="color:#000000; text-decoration: none;font-weight:900;">&nbsp;<img src="/res/AFlogo2.png" align="middle" style="position:relative;top:0px;width:22px;">&nbsp;GNUBOOK</a><br>
         </div>
    </div>
    <br><br>
@@ -1177,7 +1177,8 @@
           $(this).css("background-repeat", "");
           $(this).css("background-position", "");          
         } else if (ii === 15 && ss === "&nbsp;") {
-          $(this).css("background-image", "url('/res/dogborge.png')");
+          $(this).css("background", "transparent");
+          $(this).css("background-image", "url('/res/dogborgf.png')");
           $(this).css("background-repeat", "no-repeat");
           $(this).css("background-position", "");
           $(this).css("background-size", "80%");
@@ -1188,6 +1189,9 @@
         ii++;
       });
     } else {  
+      $("#blog").css("background-image", "url(/res/bg3.jpg)");
+      $("#blog").css("background-repeat", "no-repeat");
+      $("#blog").css("background-size", "100%");
       $(".blog-entry").css("background-image", "");
     }
     

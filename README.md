@@ -3,7 +3,7 @@ A "social" for the beautiful opensource software.
 
 Hello and welcome to gnubook!<br>
 
-gnubook born like a fork of Faceborg ver1.3.7.
+Gnubook born like a fork of Faceborg ver1.3.7.
 
 You can access your blog by gnubook.org/your_avatar. Login with the password for the admin view. Drag-n-drop all your resources in the browser window: txt files become blog posts, images fill in the gallery while you can always choose to drop whatever type of file in a magic pot.<br>
 

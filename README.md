@@ -1,7 +1,7 @@
 # gnubook
 A "social" for the beautiful opensource software.
 
-Hello and welcome to gnubook!<br><br>
+Hello and welcome to gnubook!<br>
 
 gnubook born like a fork of Faceborg ver1.3.7.
 

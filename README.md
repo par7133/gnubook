@@ -1,7 +1,6 @@
 # gnubook
 A "social" for the beautiful opensource software.
 
-<br>
 Hello and welcome to gnubook!<br><br>
 
 gnubook born like a fork of Faceborg ver1.3.7.
@@ -10,8 +9,6 @@ You can access your blog by gnubook.org/your_avatar. Login with the password for
 
 First step, use the password box and salt fields to create the hash to insert in the config file of gnubook.   
     
-[ this file is a work-in-progress.. ]
-
 ### Public view:
 
 ![gnubook in action #1](/Public/static/res/screenshot1.png)<br>

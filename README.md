@@ -24,4 +24,4 @@ Same about customizing your blog skinner (skinner.html), write down your code an
 
 ![gnubook in action #2](/Public/static/res/screenshot2.png)<br>
 
-Feedback: posta@elettronica.lol
+Feedback: <a href="mailto:code@gaox.io">code@gaox.io</a>
